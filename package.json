@@ -1,19 +1,27 @@
 {
-  "name": "runsketch",
+  "name": "testsketch",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+
+  "homepage": "https://treinartz22.github.io/testsketch",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
     "preview": "vite preview",
-    "homepage": "https://treinartz22.github.io/test-sketch/"
+
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+
+    "lint": "eslint ."
   },
+
   "dependencies": {
     "react": "^19.2.5",
     "react-dom": "^19.2.5"
   },
+
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@types/react": "^19.2.14",
