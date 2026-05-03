@@ -1,5 +1,5 @@
-import P5Sketch from "./p5Sketch";
-
+import P5Sketch from "./components/p5Sketch";
+import "./css/app.css";
 function App() {
   return (
     <div>
