@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
 
-  "homepage": "https://treinartz22.github.io/testsketch",
+  "homepage": "https://treinartz.github.io/testsketch",
 
   "scripts": {
     "dev": "vite",
